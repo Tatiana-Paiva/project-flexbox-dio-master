@@ -6,13 +6,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-ul {
+ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-ul li a {
+ul li a{
     text-decoration: none;
 }
 
@@ -21,16 +21,15 @@ div.img{
     width: 100%;
 }
 
-.flex-container {
+.flex-container{
     display: flex;
     max-width: 992px;
     margin: auto;
     width: 100%;
-    min-width: 320px;
-  
+    min-width: 320px;  
 }
 
-header {
+header{
     background-color: #122a57;
     height: 100px;
     display: flex;
@@ -38,7 +37,7 @@ header {
     color: #fff;
 }
 
-header .list-items {
+header .list-items{
     display: flex;
     max-width: 260px;
     width: 100%;
@@ -46,28 +45,26 @@ header .list-items {
     align-items: center;
 }
 
-.list-items li a {
+.list-items li a{
     color: #fff;
 }
 
-header .menu {
+header .menu{
     justify-content: space-between;
 }
 
-.apresentacao {
+.apresentacao{
     height: 100vh;
     align-items: center;
     justify-content: space-between;
-
 }
 
-.apresentacao.texto-apresentacao {
+.apresentacao.texto-apresentacao{
     min-height: 200px;
     width: 100%;
-
 }
 
-.texto-apresentacao h1 {
+.texto-apresentacao h1{
     color: #122a57;
     font-size: 48px;
     margin-bottom: 10px;
@@ -85,10 +82,9 @@ header .menu {
     line-height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
-#quem-somos {
+#quem-somos{
     flex-direction: row-reverse;  
     align-items: center;
     justify-content: space-between;
@@ -99,10 +95,9 @@ header .menu {
     color: #122a57;
     display: flex;
     margin-bottom: 20px;
-
 }
 
-#quem-somos h2::before {
+#quem-somos h2::before{
     content:"";
     height: 50px;
     width: 5px;
@@ -111,7 +106,7 @@ header .menu {
     position: relative;
 }
 
-#quem-somos p {
+#quem-somos p{
     margin-bottom: 10px;
     width: 90%;
 }
@@ -160,7 +155,6 @@ header .menu {
     font-size: 12px;
     text-decoration: none;
     font-weight: 700;
-
 }
 
 .item-servico p{
@@ -175,7 +169,7 @@ header .menu {
     margin: auto;
 }
 
-#planos {
+#planos{
     flex-direction: column;
     min-height: 100vh;
     padding-top: 50px;
@@ -196,8 +190,7 @@ header .menu {
     border: 5px solid #122a57;
     margin-right: 20px;
     padding: 10px;
-    max-width: 240px;
-    
+    max-width: 240px;    
 }
 
 .item-plano .btn{
